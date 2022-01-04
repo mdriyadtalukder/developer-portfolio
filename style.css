@@ -11,6 +11,9 @@ h2{
 .org{
     color: orange;
 }
+#org{
+    color: tomato;
+}
 .sec{
     display: flex;
     margin-bottom: 150px;
@@ -40,9 +43,9 @@ h2{
     border-radius: 5px;
 }
 .half1{
-    width: 40%;
-    margin-left: 5%;
-    margin-right: 5%;
+    width: 650px;
+    height: 400px;
+    margin-left: 55px;
     padding-left: 20px;
     box-shadow: 10px 10px 40px grey;
 }
@@ -53,12 +56,12 @@ h2{
 }
 #ab{
     border-left: 7px solid;
-    border-image: linear-gradient(blue,cyan);
+    border-image: linear-gradient(orange,tomato);
     border-image-slice: 1;
 }
 #abc{
     border-left: 7px solid;
-    border-image: linear-gradient(orange,tomato);
+    border-image: linear-gradient(blue,cyan);
     border-image-slice: 1;
 }
 footer p{
